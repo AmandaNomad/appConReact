@@ -27,7 +27,7 @@ class App extends Component {
     if (/^[0-9]$/.test(tecla)) {
       // Si es una tecla numérica (0-9), llama a handleClick con el número
       this.handleClick(tecla);
-    } else if (tecla === "=" || tecla === "+" || tecla === "-" || tecla === "*" || tecla === "/") {
+    } else if (tecla === "=" || tecla === "+" || tecla === "-" || tecla === "*" || tecla === "/" || tecla === ".") {
       // Si es una tecla de operador (=, +, -, *, /), llama a handleClick con el operador
       this.handleClick(tecla);
     } else if (tecla === "Enter") {
