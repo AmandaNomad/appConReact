@@ -1,0 +1,12 @@
+.component-app {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 77vh;
+    /*width: 50vh;*/
+    padding: 50px 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
